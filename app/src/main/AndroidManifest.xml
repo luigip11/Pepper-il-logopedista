@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="it.uniba.dib.sysag.pepper4seriousgames">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.microphone" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pepper4SeriousGames">
+
+        <activity android:name=".Fourth_game.FourthGameResult" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_12" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_11" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_10" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_09" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_08" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_07" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_06" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_05" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_04" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_03" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_02" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario2.Scenario2_01" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_12" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_11" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_10" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_09" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_08" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_07" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_06" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_05" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_04" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_03" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_02" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.Scenario1.Scenario1_01" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.SelectScenario" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Fourth_game.TutorialFourthGame" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+
+        <activity android:name=".Third_game.ThirdGameResult" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.ThirdGame07" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.ThirdGame06" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.ThirdGame05" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.ThirdGame04" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.ThirdGame03" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.ThirdGame02" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.ThirdGame01" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Third_game.TutorialThirdGame" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+
+        <activity android:name=".Second_game.SecondGameResult" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.SecondGame07" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.SecondGame06" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.SecondGame05" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.SecondGame04" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.SecondGame03" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.SecondGame02" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.SecondGame01" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".Second_game.TutorialSecondGame" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+
+        <activity android:name=".First_game.FirstGameResult" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".First_game.FirstGame" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".First_game.TutorialFirstGame" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+
+        <activity android:name=".SelectActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".ThirdActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".SecondActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name=".MainActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewPagerAdapter" />
+    </application>
+
+    <uses-feature android:name="com.softbank.hardware.pepper"/>
+</manifest>

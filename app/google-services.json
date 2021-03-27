@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "510576651655",
+    "project_id": "pepper4seriousgames",
+    "storage_bucket": "pepper4seriousgames.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510576651655:android:c609ebec17e6ec8414f722",
+        "android_client_info": {
+          "package_name": "it.uniba.dib.sysag.pepper4seriousgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510576651655-84mnpt9nbea9nvkl2g2372l934ouk401.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTEJvGQcs7Y5bNR0hoKowKtexoEaHP1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510576651655-84mnpt9nbea9nvkl2g2372l934ouk401.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
