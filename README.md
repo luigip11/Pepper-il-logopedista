@@ -22,7 +22,7 @@ Enter the robot password in the window that appears and after the IP address of 
 <br>
 <b> ∘ Run </b>
 <br>
-Clic the "Run" button on Android Studio adn the application starts on the robot’s tablet.
+Clic the "Run" button on Android Studio and the application starts on the robot’s tablet.
 <br>
 <br>
 You can now play <b>Serious Games</b>! 
