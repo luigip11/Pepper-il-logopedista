@@ -1,4 +1,4 @@
-# Pepper4SeriousGames
+# Pepper il logopedista
 This project is a Robotic Android App for Robot Pepper and Speech therapy.
 <br>
 It is developed using <a href="https://developer.android.com/studio">Android Studio</a> and <a href="https://qisdk.softbankrobotics.com/sdk/doc/pepper-sdk/index.html" rel="nofollow">Pepper SDK</a>.
